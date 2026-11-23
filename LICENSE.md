@@ -1,0 +1,1 @@
+All rights reserved. See the [Modrinth page](https://modrinth.com/resourcepack/bare-bones-2d-block-items) for more license information.

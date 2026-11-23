@@ -1,6 +1,6 @@
 # v 2.0
 
-**TOTAL: 1062**
+**TOTAL: 1063**
 
 ### Huge changes for version 2.0!  
 
@@ -85,3 +85,203 @@ Plus probably a few other changes I forgot.
 
 This list includes the flowers and foliage that have different sprites for the hand and inventory, but does not include items that are the same for both: these are listed in the "Changes to vanilla items" above.
 
+<details>
+    <summary>New Blocks</summary>
+
+- allium
+- azure bluet
+- black glazed terracotta
+- blue glazed terracotta
+- blue orchid
+- brain coral block
+- brown glazed terracotta
+- bubble coral block
+- bush
+- cactus flower
+- chain command block
+- chiseled resin bricks
+- chiseled tuff
+- chorus flower
+- chorus plant
+- closed eyeblossom
+- command block
+- copper golem statue
+- copper lantern
+- copper ore
+- cornflower
+- cracked deepslate tiles
+- crimson roots
+- cyan glazed terracotta
+- dandelion
+- dead brain coral block
+- dead bubble coral block
+- dead bush
+- dead fire coral block
+- dead horn coral block
+- dead tube coral block
+- deepslate copper ore
+- deepslate diamond ore
+- deepslate emerald ore
+- deepslate gold ore
+- deepslate iron ore
+- deepslate lapis ore
+- deepslate tiles
+- deepslate tile slab
+- deepslate tile stairs
+- deepslate tile wall
+- diamond ore
+- dried kelp block
+- emerald ore
+- exposed copper golem statue
+- exposed copper lantern
+- fern
+- firefly bush
+- fire coral block
+- frogspawn
+- glow item frame
+- glow lichen
+- gold ore
+- gray glazed terracotta
+- green glazed terracotta
+- hanging roots
+- horn coral block
+- iron ore
+- item frame
+- jigsaw
+- lantern
+- lapis ore
+- large fern
+- leaf litter
+- light blue glazed terracotta
+- light gray glazed terracotta
+- lilac
+- lily of the valley
+- lime glazed terracotta
+- magenta glazed terracotta
+- open eyeblossom
+- orange glazed terracotta
+- orange tulip
+- oxeye daisy
+- oxidized copper golem statue
+- oxidized copper lantern
+- painting
+- pale hanging moss
+- peony
+- pink glazed terracotta
+- pink petals
+- pink tulip
+- polished deepslate slab
+- polished deepslate stairs
+- polished deepslate wall
+- poppy
+- purple glazed terracotta
+- red glazed terracotta
+- red tulip
+- repeating command block
+- resin bricks
+- resin brick slab
+- resin brick stairs
+- resin brick wall
+- rose bush
+- sculk vein
+- seagrass
+- short dry grass
+- short grass
+- soul lantern
+- spawner
+- structure block
+- tall dry grass
+- tall grass
+- test block
+- test instance block
+- torchflower
+- trial spawner
+- tube coral block
+- twisting vines
+- vault
+- vine
+- warped roots
+- waxed copper golem statue
+- waxed copper lantern
+- waxed exposed copper golem statue
+- waxed exposed copper lantern
+- waxed oxidized copper golem statue
+- waxed oxidized copper lantern
+- waxed weathered copper golem statue
+- waxed weathered copper lantern
+- weathered copper golem statue
+- weathered copper lantern
+- weeping vines
+- white glazed terracotta
+- white tulip
+- wildflowers
+- wither rose
+- yellow glazed terracotta
+- golden dandelion
+- black concrete slab
+- black concrete stairs
+- black wool slab
+- black wool stairs
+- blue concrete slab
+- blue concrete stairs
+- blue wool slab
+- blue wool stairs
+- brown concrete slab
+- brown concrete stairs
+- brown wool slab
+- brown wool stairs
+- cyan concrete slab
+- cyan concrete stairs
+- cyan wool slab
+- cyan wool stairs
+- gray concrete slab
+- gray concrete stairs
+- gray wool slab
+- gray wool stairs
+- green concrete slab
+- green concrete stairs
+- green wool slab
+- green wool stairs
+- light blue concrete slab
+- light blue concrete stairs
+- light blue wool slab
+- light blue wool stairs
+- light gray concrete slab
+- light gray concrete stairs
+- light gray wool slab
+- light gray wool stairs
+- lime concrete slab
+- lime concrete stairs
+- lime wool slab
+- lime wool stairs
+- magenta concrete slab
+- magenta concrete stairs
+- magenta wool slab
+- magenta wool stairs
+- orange concrete slab
+- orange concrete stairs
+- orange wool slab
+- orange wool stairs
+- pink concrete slab
+- pink concrete stairs
+- pink wool slab
+- pink wool stairs
+- purple concrete slab
+- purple concrete stairs
+- purple wool slab
+- purple wool stairs
+- red concrete slab
+- red concrete stairs
+- red shrub
+- red wool slab
+- red wool stairs
+- white concrete slab
+- white concrete stairs
+- white wool slab
+- white wool stairs
+- yellow concrete slab
+- yellow concrete stairs
+- yellow wool slab
+- yellow wool stairs
+
+<details>
