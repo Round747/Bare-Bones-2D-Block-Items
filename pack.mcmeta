@@ -1,0 +1,29 @@
+{
+  "pack": {
+    "description": "Created by §2Liam!",
+    "pack_format": 97.1,
+    "supported_formats": [15, 97.1],
+    "min_format": 15,
+    "max_format": 97.1    
+  },
+  "overlays": {
+        "entries": [
+            {
+                "directory": "overlay_26_1",
+                "min_format": [84, 0],
+                "max_format": [97, 1]
+            },
+            {
+                "directory": "overlay_26_2",
+                "min_format": [88, 0],
+                "max_format": [97, 1]
+            },
+            {
+                "directory": "overlay_26_3",
+                "min_format": [97, 1],
+                "max_format": [97, 1]
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:block/2d_blocks/spruce_hanging_sign"
+    }
+}

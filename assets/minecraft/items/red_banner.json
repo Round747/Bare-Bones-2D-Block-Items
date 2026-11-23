@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/2d_blocks/red_banner"
+                },
+                "when": [
+                    "gui",
+                    "fixed"
+                ]
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:special",
+            "model": {
+                "type": "minecraft:banner",
+                "color": "red"
+            },
+            "base": "minecraft:item/template_banner"
+        }
+    }
+}

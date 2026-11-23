@@ -1,0 +1,28 @@
+{
+    id: "twoDimensionalBlockItems",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter"],
+    conf: {
+        compatability: {
+            weskersonCompat: false,
+            recolourfulContainersCompat: false,
+            betterLeaves: false,
+            enchantmentOutlines: false,
+            freshFlowers: false
+        },
+        customisation: {
+            customTorchSprites: true,
+            customLanternSprites: true,
+            shields: true,
+            banners: true,
+            maps: true,
+            pots: true,
+            seeds: true,
+            arrows: true,
+            plants: true,
+            dusts: true,
+            bricks: true
+        }
+        
+    }
+}

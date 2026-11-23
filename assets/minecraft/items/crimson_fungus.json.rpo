@@ -1,0 +1,7 @@
+{
+    condition: "customisation.plants & !compatability.weskersonCompat & !compatability.freshFlowers",
+    fallback: [
+        "assets/minecraft/items/fresh_flowers_and_plants_compat/crimson_fungus.json",
+        "assets/minecraft/items/weskerson_compat/crimson_fungus.json"
+    ]
+}

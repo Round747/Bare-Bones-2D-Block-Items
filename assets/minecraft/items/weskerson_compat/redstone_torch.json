@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/2d_blocks/redstone_torch"
+        },
+        "when": [
+          "gui",
+          "fixed"
+        ]
+      },
+      {
+        "when": [
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/redstone_torch"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/redstone_torch_hand"
+    },
+    "property": "minecraft:display_context"
+  }
+}

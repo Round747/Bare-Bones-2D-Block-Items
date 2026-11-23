@@ -1,0 +1,4 @@
+{
+    condition: "customisation.dusts & !compatability.recolourfulContainersCompat",
+    fallback: "assets/minecraft/textures/gui/sprites/container/slot/recolourful_containers_compat/brewing_fuel.png"
+}

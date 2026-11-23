@@ -1,0 +1,4 @@
+{
+    condition: "customisation.customLanternSprites & !compatability.weskersonCompat",
+    fallback: "assets/minecraft/items/weskerson_compat/soul_lantern.json"
+}

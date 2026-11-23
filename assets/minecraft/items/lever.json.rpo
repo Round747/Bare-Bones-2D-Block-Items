@@ -1,0 +1,4 @@
+{
+    condition: "!compatability.weskersonCompat",
+    fallback: "assets/minecraft/items/weskerson_compat/lever.json"
+}

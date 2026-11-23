@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/2d_blocks/purple_shulker_box"
+                },
+                "when": [
+                    "gui",
+                    "fixed"
+                ]
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:special",
+            "model": {
+                "type": "minecraft:shulker_box",
+                "texture": "shulker_purple"
+            },
+            "base": "minecraft:item/shulker_box"
+        }
+    }
+}

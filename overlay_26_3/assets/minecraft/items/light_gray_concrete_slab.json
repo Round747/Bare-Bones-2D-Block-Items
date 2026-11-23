@@ -1,0 +1,22 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/2d_blocks/light_gray_concrete_slab"
+                },
+                "when": [
+                    "gui",
+                    "fixed"
+                ]
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/light_gray_concrete_slab"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+
+    {
+        "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/2d_blocks/oak_log"
+                    },
+                    "when": [
+                        "gui",
+                        "fixed"
+                    ]
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:block/oak_log"
+            }
+        }
+    }

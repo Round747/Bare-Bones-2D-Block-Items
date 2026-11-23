@@ -1,0 +1,4 @@
+{
+    condition: "customisation.plants & !compatability.freshFlowers",
+    fallback: "assets/minecraft/items/fresh_flowers_and_plants_compat/cornflower.json"
+}

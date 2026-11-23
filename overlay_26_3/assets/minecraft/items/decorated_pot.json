@@ -1,0 +1,46 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "minecraft:component",
+                    "component": "minecraft:pot_decorations",
+                    "cases": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/decorated_pot"
+                            },
+                            "when": [
+                                {
+                                    "back": "minecraft:brick",
+                                    "left": "minecraft:brick",
+                                    "right": "minecraft:brick",
+                                    "front": "minecraft:brick"
+                                }
+                            ]
+                        }
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/2d_blocks/decorated_pot_decorated"
+                    }
+                },
+                "when": [
+                    "gui",
+                    "fixed"
+                ]
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:special",
+            "model": {
+                "type": "minecraft:decorated_pot"
+            },
+            "base": "minecraft:item/decorated_pot"
+        }
+    }
+}

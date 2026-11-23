@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/2d_blocks/comparator"
+        },
+        "when": [
+          "gui",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/comparator_hand"
+    },
+    "property": "minecraft:display_context"
+  }
+}

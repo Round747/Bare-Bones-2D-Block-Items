@@ -1,0 +1,154 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "minecraft:component",
+                    "component": "minecraft:base_color",
+                    "cases": [
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_purple"
+                            },
+                            "when": "purple"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_black"
+                            },
+                            "when": "black"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_blue"
+                            },
+                            "when": "blue"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_brown"
+                            },
+                            "when": "brown"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_cyan"
+                            },
+                            "when": "cyan"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_gray"
+                            },
+                            "when": "gray"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_green"
+                            },
+                            "when": "green"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_light_blue"
+                            },
+                            "when": "light_blue"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_light_gray"
+                            },
+                            "when": "light_gray"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_lime"
+                            },
+                            "when": "lime"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_magenta"
+                            },
+                            "when": "magenta"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_orange"
+                            },
+                            "when": "orange"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_pink"
+                            },
+                            "when": "pink"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_red"
+                            },
+                            "when": "red"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_white"
+                            },
+                            "when": "white"
+                        },
+                        {
+                            "model": {
+                                "type": "minecraft:model",
+                                "model": "minecraft:item/2d_blocks/shield_yellow"
+                            },
+                            "when": "yellow"
+                        } 
+                    ],
+                    "fallback": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/2d_blocks/shield"
+                    }
+                },
+                "when": [
+                    "gui"
+                ]
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+                "type": "minecraft:special",
+                "model": {
+                    "type": "minecraft:shield"
+                },
+                "base": "item/shield_blocking"
+            },
+            "on_false": {
+                "type": "minecraft:special",
+                "model": {
+                    "type": "minecraft:shield"
+                },
+                "base": "item/shield"
+            }
+        }
+    }
+}

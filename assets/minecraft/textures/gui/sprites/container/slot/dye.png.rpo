@@ -1,0 +1,4 @@
+{
+    condition: "!compatability.recolourfulContainersCompat",
+    fallback: "assets/minecraft/textures/gui/sprites/container/slot/recolourful_containers_compat/dye.png"
+}

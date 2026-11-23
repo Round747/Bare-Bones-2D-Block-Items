@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:block/2d_blocks/cracked_polished_blackstone_bricks"
+    }
+}

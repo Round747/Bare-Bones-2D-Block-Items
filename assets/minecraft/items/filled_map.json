@@ -1,0 +1,358 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": "dnt:chart",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dnt:item/chart",
+                    "tints": [
+                        {
+                            "type": "minecraft:constant",
+                            "value": -1
+                        },
+                        {
+                            "type": "minecraft:map_color",
+                            "default": 4603950
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "dnt:folded_chart",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "dnt:item/folded_chart",
+                    "tints": [
+                        {
+                            "type": "minecraft:constant",
+                            "value": -1
+                        },
+                        {
+                            "type": "minecraft:map_color",
+                            "default": 4603950
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:item_name",
+            "cases": [
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/buried_treasure_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.buried_treasure"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/savanna_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_savanna"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/taiga_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_taiga"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/monument_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.monument"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/trial_chambers_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.trial_chambers"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/plains_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_plains"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/jungle_explorer_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.explorer_jungle"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/swamp_explorer_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.explorer_swamp"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/snowy_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_snowy"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/desert_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_desert"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/mansion_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.mansion"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/ancient_city_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.ancient_city"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/buried_treasure_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.buried_treasure",
+                        "fallback": "filled_map.buried_treasure"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/savanna_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_savanna",
+                        "fallback": "filled_map.village_savanna"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/taiga_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_taiga",
+                        "fallback": "filled_map.village_taiga"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/monument_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.monument",
+                        "fallback": "filled_map.monument"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/trial_chambers_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.trial_chambers",
+                        "fallback": "filled_map.trial_chambers"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/plains_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_plains",
+                        "fallback": "filled_map.village_plains"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/jungle_explorer_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.explorer_jungle",
+                        "fallback": "filled_map.explorer_jungle"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/swamp_explorer_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.explorer_swamp",
+                        "fallback": "filled_map.explorer_swamp"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/snowy_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_snowy",
+                        "fallback": "filled_map.village_snowy"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/desert_village_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.village_desert",
+                        "fallback": "filled_map.village_desert"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/mansion_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.mansion",
+                        "fallback": "filled_map.mansion"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/ancient_city_map"
+                    },
+                    "when": {
+                        "translate": "filled_map.ancient_city",
+                        "fallback": "filled_map.ancient_city"
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.nether_port",
+                        "fallback": "Nether Port Map",
+                        "italic": false
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.nether_skeleton_tower",
+                        "fallback": "Nether Skeleton Tower Map",
+                        "italic": false
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.piglin_hamlet",
+                        "fallback": "Piglin Hamlet Map",
+                        "italic": false
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.piglin_donjon",
+                        "fallback": "Piglin Donjon Map",
+                        "italic": false
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.nether_keep",
+                        "fallback": "Nether Keep Map",
+                        "italic": false
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.sealing_halls",
+                        "fallback": "Sealing Halls Map",
+                        "italic": false
+                    }
+                },
+                {
+                    "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/filled_map_nether"
+                    },
+                    "when": {
+                        "translate": "item.dnt.filled_map.piglin_outstation",
+                        "fallback": "Piglin Outstation Map",
+                        "italic": false
+                    }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/filled_map"
+            }
+        }
+    }
+}

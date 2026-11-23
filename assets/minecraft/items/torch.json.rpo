@@ -1,0 +1,4 @@
+{
+    condition: "customisation.customTorchSprites & !compatability.weskersonCompat",
+    fallback: "assets/minecraft/items/weskerson_compat/torch.json"
+}

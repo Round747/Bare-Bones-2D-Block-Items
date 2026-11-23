@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/2d_blocks/enchantment_outlines_compat/shield",
+		"particle": "block/2d_blocks/enchantment_outlines_compat/shield"
+	},
+	"elements": [
+		{
+			"from": [0, 0, -16],
+			"to": [16, 16, -16],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 2, 16, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"scale": [1.05, 1.05, 1.05]
+		}
+	}
+}

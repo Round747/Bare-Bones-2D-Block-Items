@@ -1,0 +1,4 @@
+{
+    "condition": "!compatability.betterLeaves",
+    "fallback": "assets/minecraft/textures/block/2d_blocks/better_leaves_compat/orange_poplar_leaves.png"
+}

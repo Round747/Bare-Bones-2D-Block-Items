@@ -1,0 +1,5 @@
+{
+    condition: "customisation.shields & !compatability.enchantmentOutlines",
+    fallback: "assets/minecraft/items/enchantment_outlines_compat/shield.json"
+    
+}

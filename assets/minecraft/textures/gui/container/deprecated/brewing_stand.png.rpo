@@ -1,0 +1,4 @@
+{
+    condition: "customisation.dusts & !compatability.recolourfulContainersCompat",
+    fallback: "assets/minecraft/textures/gui/sprites/container/recolourful_containers_compat/brewing_stand.png"
+}
